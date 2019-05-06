@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/titlebg"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:text="Faculty"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorGreyDark"
+            android:padding="8dp"
+            android:text="@string/faculty0"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text00"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorGreyDark"
+            android:padding="8dp"
+            android:text="@string/faculty1"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text01"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:src="@drawable/image1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="fill_vertical|center"
+            android:text="Dr. Chan H.T.H. "
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="email hubert@cs.hku.hk"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:src="@drawable/image2" />
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dr. Chan K.P. "
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="email kpchan@cs.hku.hk"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="50dp"
+            android:paddingTop="30dp"
+            android:paddingRight="50dp"
+
+            android:src="@drawable/image3" />
+
+        <TextView
+            android:id="@+id/text31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:text="Dr. Cheng R.C.K."
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/text32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="email ckcheng@cs.hku.hk"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text32"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="50dp"
+            android:paddingTop="30dp"
+            android:paddingRight="50dp"
+            android:src="@drawable/image4"
+            />
+
+        <TextView
+            android:id="@+id/text41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dr. Choi L.Y.K."
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="email ykchoi@cs.hku.hk"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="50dp"
+            android:paddingTop="30dp"
+            android:paddingRight="50dp"
+            android:src="@drawable/image5" />
+
+        <TextView
+            android:id="@+id/text51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dr. Choi L.Y.K. "
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text=" email ykchoi@cs.hku.hk"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

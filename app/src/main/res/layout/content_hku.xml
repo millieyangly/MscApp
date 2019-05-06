@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/hkubg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreyDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/c_hku_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/titlebg"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:text="@string/f_hku_title"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_hku_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="@string/f_hku_details"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:contentDescription="hkulogo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/hkulogo"/>
+
+    </LinearLayout>
+
+</ScrollView>

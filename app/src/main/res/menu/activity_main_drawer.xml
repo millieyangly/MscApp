@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/program"
+            android:icon="@mipmap/ic_program"
+            android:title="Program" />
+        <item
+            android:id="@+id/faculy"
+            android:icon="@mipmap/ic_faculty"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/admission"
+            android:icon="@mipmap/ic_admission"
+            android:title="Admission" />
+        <item
+            android:id="@+id/hku"
+            android:icon="@mipmap/ic_hku"
+            android:title="HKU" />
+    </group>
+    <!--item
+        android:id="@+id/curriculum"
+        android:layout_height="match_parent"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Curriculum">
+        <menu>
+            <item
+                android:id="@+id/program"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Program" />
+            <item
+                android:id="@+id/course"
+                android:title="Courses" />
+            <item
+                android:id="@+id/dissertation"
+                android:title="Dissertation" />
+            <item
+                android:id="@+id/time_table"
+                android:title="Time Table" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/campus"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Campus">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/admission"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Admission">
+        <menu>
+            <item
+                android:id="@+id/schedule"
+                android:title="Schedule" />
+            <item
+                android:id="@+id/composition_fees"
+                android:title="Composition Fees" />
+            <item
+                android:id="@+id/application"
+                android:title="application" />
+        </menu>
+    </item-->
+
+</menu>

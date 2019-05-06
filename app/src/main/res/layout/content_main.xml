@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/titlebg"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:text="NEWS"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/news1"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ne1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/news1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/news1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news2"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ne2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/news2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/news2"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news3"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ne3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/news3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/news3"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/news4"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ne4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/news4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/news4"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@mipmap/titlebg"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:text="EVENTS"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="15dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/event1"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ev1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/event1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/event1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/event2"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ev2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/event2345" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/event2"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/event3"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ev3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/event2345" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/event3"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/event4"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ev4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/event2345" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/event4"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/event5"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="bottom|end">
+
+                    <ImageView
+                        android:id="@+id/ev5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@mipmap/event2345" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/colorGreyDark"
+                        android:padding="5dp"
+                        android:text="@string/event5"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
